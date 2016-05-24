@@ -466,8 +466,8 @@ There's also `thickPolygon` and `thickLine` which use an extra parameter
 for thickness:
 
     main = pictureOf(mystery)
-    mystery = thickLine(path, 1)
-    path = [(-3, -4), (0, 5), (3, -4), (-4, 2), (4, 2), (-3, -4)]
+    mystery = thickLine(apath, 1)
+    apath = [(-3, -4), (0, 5), (3, -4), (-4, 2), (4, 2), (-3, -4)]
 
 #### Using the coordinate plane to draw ####
 
